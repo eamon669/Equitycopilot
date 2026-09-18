@@ -1,0 +1,29 @@
+{
+  "python": "3.12.13",
+  "platform": "Linux",
+  "data": "4个财年/84项财务记录/8家同业/4页PDF",
+  "excludes": "浏览器渲染、网络传输、外部LLM、大文件、并发负载与冷启动",
+  "results": [
+    {
+      "name": "CSV+财务筛查+8家同业+情景估值（无Streamlit缓存）",
+      "iterations": 30,
+      "p50_ms": 33.7,
+      "p95_ms": 51.86,
+      "max_ms": 59.96
+    },
+    {
+      "name": "本地毛利率证据问答",
+      "iterations": 30,
+      "p50_ms": 5.32,
+      "p95_ms": 6.88,
+      "max_ms": 9.49
+    },
+    {
+      "name": "4页文本PDF解析",
+      "iterations": 10,
+      "p50_ms": 60.63,
+      "p95_ms": 93.93,
+      "max_ms": 100.8
+    }
+  ]
+}
